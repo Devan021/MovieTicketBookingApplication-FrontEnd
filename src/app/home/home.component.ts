@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
     this.mService.getAllMovies().subscribe((data: Movie[]) => {
       this.topRatedMovies = data
         .sort((a, b) => (a.movieRating > b.movieRating ? -1 : 1))
-        .slice(0, 8);
+        .slice(0, 8);1
     });
     this.mService.getAllMovies().subscribe((data: Movie[]) => {
       this.latestMovies = data

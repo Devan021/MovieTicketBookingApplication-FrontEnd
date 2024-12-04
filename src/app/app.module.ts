@@ -47,6 +47,7 @@ import { CreateCustomerComponent } from './customer/create-customer/create-custo
 import { ListViewCustomerComponent } from './customer/list-view-customer/list-view-customer.component';
 import { UpdateCustomerComponent } from './customer/update-customer/update-customer.component';
 import { CreateSeatComponent } from './seat/create-seat/create-seat.component';
+import { UserDashboardComponent } from './user-dashboard/user-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -93,6 +94,7 @@ import { CreateSeatComponent } from './seat/create-seat/create-seat.component';
     ListViewCustomerComponent,
     UpdateCustomerComponent,
     CreateSeatComponent,
+    UserDashboardComponent,
   ],
   imports: [
     BrowserModule,
